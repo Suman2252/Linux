@@ -17,20 +17,54 @@
 
 ---
 
-## 🗺️ Roadmap
+## 🗺️ Learning Roadmap
 
-```
- YOU ARE HERE
-      │
-      ▼
-┌─────────────┐     ┌──────────────────┐     ┌─────────────────┐     ┌──────────────────┐
-│  🌱 BEGINNER │────▶│  🌿 INTERMEDIATE  │────▶│  🔥 ADVANCED     │────▶│  🧠 EXPERT        │
-│  Ch. 01 – 08 │     │  Ch. 09 – 16      │     │  Ch. 17 – 24     │     │  Ch. 25 – 34      │
-└─────────────┘     └──────────────────┘     └─────────────────┘     └──────────────────┘
- Terminal, files,     Scripting, SSH,         Kernel, security,       Containers, K8s,
- permissions,         networking, cron,       systemd, firewalls,     eBPF, LFS,
- packages, editors    processes, backups      performance, LVM        virtualization
-```
+<table>
+<tr>
+<td align="center" width="25%">
+
+### 🌱 Beginner
+**Chapters 01 – 08**
+
+Terminal, filesystem, files, permissions, packages, editors
+
+*Start here if you're new*
+
+</td>
+<td align="center" width="25%">
+
+### 🌿 Intermediate
+**Chapters 09 – 16**
+
+Scripting, processes, SSH, networking, cron, backups
+
+*Ready to go deeper*
+
+</td>
+<td align="center" width="25%">
+
+### 🔥 Advanced
+**Chapters 17 – 24**
+
+Kernel internals, systemd, security, firewalls, performance, LVM
+
+*Power user territory*
+
+</td>
+<td align="center" width="25%">
+
+### 🧠 Expert
+**Chapters 25 – 34**
+
+Docker, K8s, eBPF, LFS, embedded, HA clustering, DR
+
+*Deep mastery*
+
+</td>
+</tr>
+</table>
+
+<p align="center">🌱 ➡️ 🌿 ➡️ 🔥 ➡️ 🧠</p>
 
 ---
 
@@ -80,26 +114,28 @@
 | # | Topic | What You'll Learn |
 |---|-------|-------------------|
 | 25 | [Kernel Compilation & Modules](./25-kernel-compilation-modules/README.md) | Build kernels, DKMS, write modules |
-| 26 | [Containers & Docker](./26-containers-docker/README.md) | Namespaces, cgroups, Docker, Podman |
-| 27 | [Kubernetes on Linux](./27-kubernetes-on-linux/README.md) | kubeadm, pods, services, Helm |
+| 26 | [Docker & Containers](./26-docker-containers/README.md) | Namespaces, cgroups, Docker, Podman |
+| 27 | [Kubernetes & Orchestration](./27-kubernetes-orchestration/README.md) | kubectl, pods, services, Helm |
 | 28 | [Advanced Filesystems](./28-advanced-filesystems/README.md) | Btrfs, ZFS, ext4 internals, XFS |
-| 29 | [Virtualization](./29-virtualization/README.md) | KVM, QEMU, libvirt, cloud-init |
-| 30 | [eBPF & System Tracing](./30-ebpf-tracing/README.md) | bpftrace, BCC, perf, ftrace, strace |
+| 29 | [Virtualization & KVM](./29-virtualization-kvm/README.md) | KVM, QEMU, libvirt, cloud-init |
+| 30 | [eBPF & Advanced Tracing](./30-ebpf-tracing/README.md) | bpftrace, BCC, perf, ftrace |
 | 31 | [Linux From Scratch](./31-linux-from-scratch/README.md) | Build your own Linux from source |
 | 32 | [Embedded Linux](./32-embedded-linux/README.md) | Yocto, Buildroot, device trees |
-| 33 | [High Availability & Clustering](./33-high-availability-clustering/README.md) | Pacemaker, HAProxy, keepalived |
-| 34 | [Troubleshooting & Disaster Recovery](./34-troubleshooting-disaster-recovery/README.md) | Boot rescue, fsck, grub repair |
+| 33 | [High Availability & Clustering](./33-ha-clustering/README.md) | Pacemaker, HAProxy, keepalived |
+| 34 | [Disaster Recovery](./34-disaster-recovery/README.md) | Boot rescue, fsck, grub repair |
+
+---
 
 ### 📋 Quick References
 
 | Resource | Description |
 |----------|-------------|
-| [📝 Commands Cheatsheet](./cheatsheets/commands.md) | Essential commands at a glance |
+| [📝 Essential Commands](./cheatsheets/essential-commands.md) | Must-know commands at a glance |
 | [⌨️ Vim Cheatsheet](./cheatsheets/vim.md) | Vim modes, motions, and commands |
-| [🔤 Bash Shortcuts](./cheatsheets/bash-shortcuts.md) | Terminal keyboard shortcuts |
-| [🔍 Regex Reference](./cheatsheets/regex.md) | Regular expressions explained |
-| [🌐 Networking Cheatsheet](./cheatsheets/networking.md) | Networking commands reference |
-| [🔒 Permissions Cheatsheet](./cheatsheets/permissions.md) | File permissions quick guide |
+| [🔤 Bash Scripting](./cheatsheets/bash-scripting.md) | Variables, loops, conditionals, functions |
+| [🌐 Networking](./cheatsheets/networking.md) | Networking commands reference |
+| [� Docker](./cheatsheets/docker.md) | Images, containers, compose |
+| [⚙️ Systemd](./cheatsheets/systemd.md) | Services, journalctl, targets |
 | [📚 Resources & Learning](./resources/README.md) | Books, courses, certifications |
 | [📖 Glossary](./glossary/README.md) | A–Z Linux terminology |
 
