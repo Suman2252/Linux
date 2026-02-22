@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="https://i.ibb.co.com/h1gWgGnP/banner.png" alt="The Ultimate Linux Guide" width="100%">
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/OS-Linux-informational?style=for-the-badge&logo=linux&logoColor=white&color=FCC624" alt="Linux">
   <img src="https://img.shields.io/badge/Shell-Bash-informational?style=for-the-badge&logo=gnu-bash&logoColor=white&color=4EAA25" alt="Bash">
   <img src="https://img.shields.io/badge/License-MIT-informational?style=for-the-badge&color=blue" alt="MIT License">
