@@ -16,10 +16,6 @@
   <em>34 in-depth chapters · 6 cheatsheets · 200+ commands · Beginner → Expert</em>
 </p>
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="600" alt="Terminal animation">
-</p>
-
 ---
 
 ## 🗺️ Learning Roadmap
