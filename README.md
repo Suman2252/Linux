@@ -16,6 +16,10 @@
   <em>34 in-depth chapters · 6 cheatsheets · 200+ commands · Beginner → Expert</em>
 </p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f2d3cd46-c47a-44d8-8ab0-822e3685f2a0" width="600" alt="Linux Demo">
+</p>
+
 ---
 
 ## 🗺️ Learning Roadmap
