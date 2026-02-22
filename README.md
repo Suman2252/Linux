@@ -8,6 +8,7 @@
   <img src="https://img.shields.io/badge/License-MIT-informational?style=for-the-badge&color=blue" alt="MIT License">
   <img src="https://img.shields.io/badge/PRs-Welcome-informational?style=for-the-badge&color=brightgreen" alt="PRs Welcome">
   <img src="https://img.shields.io/badge/Chapters-34-informational?style=for-the-badge&color=orange" alt="34 Chapters">
+  <img src="https://komarev.com/ghpvc/?username=sovon1&label=Views&color=blueviolet&style=for-the-badge" alt="Profile Views">
 </p>
 
 <h1 align="center">🐧 The Ultimate Linux Guide</h1>
