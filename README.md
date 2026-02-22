@@ -3,16 +3,21 @@
   <img src="https://img.shields.io/badge/Shell-Bash-informational?style=for-the-badge&logo=gnu-bash&logoColor=white&color=4EAA25" alt="Bash">
   <img src="https://img.shields.io/badge/License-MIT-informational?style=for-the-badge&color=blue" alt="MIT License">
   <img src="https://img.shields.io/badge/PRs-Welcome-informational?style=for-the-badge&color=brightgreen" alt="PRs Welcome">
+  <img src="https://img.shields.io/badge/Chapters-34-informational?style=for-the-badge&color=orange" alt="34 Chapters">
 </p>
 
 <h1 align="center">🐧 The Ultimate Linux Guide</h1>
 
 <p align="center">
-  <strong>From Zero to Kernel Hacker — The most comprehensive Linux resource on GitHub.</strong>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FCC624&center=true&vCenter=true&width=600&lines=From+Zero+to+Kernel+Hacker+%F0%9F%9A%80;Master+the+Terminal+%F0%9F%96%A5%EF%B8%8F;Understand+the+Kernel+%F0%9F%94%A7;Deploy+at+Scale+with+Containers+%F0%9F%90%B3;Secure%2C+Tune+%26+Monitor+like+a+Pro+%F0%9F%94%92;The+most+comprehensive+Linux+guide+on+GitHub!" alt="Typing SVG">
 </p>
 
 <p align="center">
   <em>34 in-depth chapters · 6 cheatsheets · 200+ commands · Beginner → Expert</em>
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="600" alt="Terminal animation">
 </p>
 
 ---
