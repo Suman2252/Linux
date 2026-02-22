@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.ibb.co.com/h1gWgGnP/banner.png" alt="The Ultimate Linux Guide" width="100%">
+  <img src="./assets/banner.svg" alt="The Ultimate Linux Guide" width="100%">
 </p>
 
 <p align="center">
